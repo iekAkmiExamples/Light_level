@@ -1,4 +1,4 @@
-# Simple Camera App example
+# Light Level App example
 
 ## Project Info
 
