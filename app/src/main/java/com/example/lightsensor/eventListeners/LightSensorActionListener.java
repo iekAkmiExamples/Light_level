@@ -9,11 +9,9 @@ import android.widget.TextView;
 
 public class LightSensorActionListener implements SensorEventListener {
     private TextView lightLevelView;
-    private Context activityContext;
 
-    public LightSensorActionListener(TextView lightLevelView, Context activityContext) {
+    public LightSensorActionListener(TextView lightLevelView) {
         this.lightLevelView = lightLevelView;
-        this.activityContext = activityContext;
     }
 
     @Override
